@@ -1,0 +1,41 @@
+{
+	"name": "gd-creator-swamp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"prepare": "npm run smui-theme-light && npm run smui-theme-dark",
+		"smui-theme-light": "smui-theme compile static/smui.css -i src/theme",
+		"smui-theme-dark": "smui-theme compile static/smui-dark.css -i src/theme/dark"
+	},
+	"devDependencies": {
+		"@smui/button": "^7.0.0-beta.14",
+		"@smui/circular-progress": "^7.0.0-beta.14",
+		"@smui/drawer": "^7.0.0-beta.14",
+		"@smui/icon-button": "^7.0.0-beta.14",
+		"@smui/paper": "^7.0.0-beta.14",
+		"@smui/textfield": "^7.0.0-beta.14",
+		"@smui/top-app-bar": "^7.0.0-beta.14",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"smui-theme": "^7.0.0-beta.14",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@smui/fab": "^7.0.0-beta.14",
+		"@smui/list": "^7.0.0-beta.14",
+		"js-cookie": "^3.0.5",
+		"markdown-it": "^13.0.1",
+		"mysql2": "^3.5.2",
+		"svelte-markdown": "^0.3.0"
+	}
+}

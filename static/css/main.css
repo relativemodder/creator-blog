@@ -1,0 +1,95 @@
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+.blog-content {
+	padding-top: 60px;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-bottom: 40px;
+}
+
+.blog-post {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+}
+
+
+.signup-form {
+	width: 600px;
+}
+
+.signup-form .form-title {
+	width: 100%;
+	text-align: left;
+}
+
+.signup-form input {
+	width: 100%;
+}
+
+.signup-form label {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.signup-form button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.fab-rb {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	top: unset;
+}
+
+.blog-post img {
+	max-width: 100%;
+	height: auto;
+}
+
+code {
+	font-family: 'Courier New';
+}
+
+.blog-post-preview img {
+	max-width: 90%;
+	height: auto;
+}
+
+.blog-content.publish label {
+	width: 100%;
+}
+
+.blog-content.publish button {
+	width: 100%;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.signup-form {
+		width: 100%;
+	}
+	.post {
+		text-align: center;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.post img {
+		width: 80%;
+		margin: none;
+		align-self: center;
+	}
+}
